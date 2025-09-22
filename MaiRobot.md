@@ -145,19 +145,13 @@ Response:
 await WheelController.move_backward(200)
 ```
 
-- Prompt: “Mai Robot, can you move in reverse.” \
-Response:
-```
-await WheelController.move_backward(200)
-```
-
 - Prompt: “Mai Robot, go move backward.” \
 Response:
 ```
 await WheelController.move_backward(200)
 ```
 
-- Prompt: “Mai Robot, walk back 200.” \
+- Prompt: “Mai Robot, walk back by 200.” \
 Response:
 ```
 await WheelController.move_backward(200)
@@ -167,6 +161,18 @@ await WheelController.move_backward(200)
 Response:
 ```
 await WheelController.move_backward(200)
+```
+
+- Prompt: “Mai Robot, head backward.” \
+Response:
+```
+await WheelController.move_backward(200)
+```
+
+- Prompt: “Mai Robot, please move 100 backward.” \
+Response:
+```
+await WheelController.move_backward(100)
 ```
 
 - Prompt: “Mai Robot, go forward 150, then turn right by 90.” \
