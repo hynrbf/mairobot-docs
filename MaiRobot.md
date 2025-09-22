@@ -44,6 +44,12 @@ Response:
 await WheelController.move_backward(200)
 ```
 
+- Prompt: “Mai Robot, can you move.” \
+Response:
+```
+await WheelController.move_backward(200)
+```
+
 - Prompt: “Mai Robot can you play music.” \
 Response: I am not able to do that now.
 
