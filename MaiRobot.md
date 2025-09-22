@@ -604,6 +604,96 @@ await WheelController.move_backward(200)
 await WheelController.left_turn(90)
 ```
 
+- Prompt: “Mai Robot, go forward 200, then turn right by 90, move backward 150, and turn left 90.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.right_turn(90)
+await WheelController.move_backward(150)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, move ahead 250, swing right 45, back up 150, then shift left 90 please.” \
+Response:
+```
+await WheelController.move_forward(250)
+await WheelController.right_turn(45)
+await WheelController.move_backward(150)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, can you go forward 150, back up 250, then turn right 90 and swing left 90.” \
+Response:
+```
+await WheelController.move_forward(150)
+await WheelController.right_turn(90)
+await WheelController.move_backward(250)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, please go forward 300, step back 150, pivot right 90, then swing left 45.” \
+Response:
+```
+await WheelController.move_forward(300)
+await WheelController.right_turn(90)
+await WheelController.move_backward(150)
+await WheelController.left_turn(45)
+```
+
+- Prompt: “Mai Robot, move forward, turn right, go backward, then turn left.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.right_turn(90)
+await WheelController.move_backward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, please go forward, pivot left, move back, then rotate right.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.right_turn(90)
+await WheelController.move_backward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, can you step forward, go back, then turn right and turn left.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.right_turn(90)
+await WheelController.move_backward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, move forward, move backward, rotate left, then rotate right please.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.right_turn(90)
+await WheelController.move_backward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, move straight ahead, retreat, angle right, then angle left.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.right_turn(90)
+await WheelController.move_backward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, can you proceed forward, go backward, turn right, then turn left.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.right_turn(90)
+await WheelController.move_backward(200)
+await WheelController.left_turn(90)
+```
+
 - Prompt: “Mai Robot can you play music.” \
 Response: I am not able to do that now.
 
