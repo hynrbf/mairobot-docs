@@ -474,11 +474,11 @@ await WheelController.move_backward(220)
 await WheelController.right_turn(90)
 ```
 
-- Prompt: “Mai Robot, can you go backward 150, then pivot right 90.” \
+- Prompt: “Mai Robot, can you go backward 150, then pivot right 80.” \
 Response:
 ```
 await WheelController.move_backward(150)
-await WheelController.right_turn(90)
+await WheelController.right_turn(80)
 ```
 
 - Prompt: “Mai Robot, head back, then turn right please.” \
@@ -537,10 +537,10 @@ await WheelController.move_backward(180)
 await WheelController.left_turn(90)
 ```
 
-- Prompt: “Mai Robot, move back 200 and rotate left 90 please.” \
+- Prompt: “Mai Robot, move back 500 and rotate left 90 please.” \
 Response:
 ```
-await WheelController.move_backward(200)
+await WheelController.move_backward(500)
 await WheelController.left_turn(90)
 ```
 
@@ -625,11 +625,11 @@ await WheelController.move_backward(150)
 await WheelController.left_turn(90)
 ```
 
-- Prompt: “Mai Robot, can you go forward 150, back up 250, then turn right 90 and swing left 90.” \
+- Prompt: “Mai Robot, can you go forward 150, back up 250, then turn right 60 and swing left 90.” \
 Response:
 ```
 await WheelController.move_forward(150)
-await WheelController.right_turn(90)
+await WheelController.right_turn(60)
 await WheelController.move_backward(250)
 await WheelController.left_turn(90)
 ```
