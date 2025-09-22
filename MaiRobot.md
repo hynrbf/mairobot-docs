@@ -373,6 +373,76 @@ await WheelController.move_forward(200)
 await WheelController.right_turn(90)
 ```
 
+- Prompt: “Mai Robot, go forward 150, then turn left by 90.” \
+Response:
+```
+await WheelController.move_forward(150)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, move ahead 200 and rotate left please.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, can you go straight 150, then pivot left 90.” \
+Response:
+```
+await WheelController.move_forward(150)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, continue forward 200 and please turn left 90.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, drive forward 200, then angle left 60.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.left_turn(60)
+```
+
+- Prompt: “Mai Robot, please go forward and rotate left.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, can you step forward and pivot left.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, move straight ahead, then shift left please.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, walk forward, then rotate counterclockwise.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.left_turn(90)
+```
+
+- Prompt: “Mai Robot, proceed forward, then angle left.” \
+Response:
+```
+await WheelController.move_forward(200)
+await WheelController.left_turn(90)
+```
+
 - Prompt: “Mai Robot can you play music.” \
 Response: I am not able to do that now.
 
