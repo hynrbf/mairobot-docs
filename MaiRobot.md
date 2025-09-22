@@ -175,6 +175,54 @@ Response:
 await WheelController.move_backward(100)
 ```
 
+- Prompt: “Mai Robot, turn right 90.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
+- Prompt: “Mai Robot, rotate right 90.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
+- Prompt: “Mai Robot, pivot right by 90.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
+- Prompt: “Mai Robot, can you spin right by 90.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
+- Prompt: “Mai Robot, swing right.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
+- Prompt: “Mai Robot, please move right.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
+- Prompt: “Mai Robot, step 90 to the right.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
+- Prompt: “Mai Robot, face right 90.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
 - Prompt: “Mai Robot, go forward 150, then turn right by 90.” \
 Response:
 ```
