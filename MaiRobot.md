@@ -37,6 +37,30 @@ Response:
 await WheelController.move_forward(200)
 ```
 
+- Prompt: “Mai Robot, walk forward 200.” \
+Response:
+```
+await WheelController.move_forward(200)
+```
+
+- Prompt: “Mai Robot, step forward 100.” \
+Response:
+```
+await WheelController.move_forward(100)
+```
+
+- Prompt: “Mai Robot, proceed ahead 200.” \
+Response:
+```
+await WheelController.move_forward(200)
+```
+
+- Prompt: “Mai Robot, can you advance by 200.” \
+Response:
+```
+await WheelController.move_forward(200)
+```
+
 - Prompt: “Mai Robot, go forward 150, then turn right by 90.” \
 Response:
 ```
