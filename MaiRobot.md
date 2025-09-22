@@ -1,6 +1,6 @@
 # Mai Robot Overview
 
-Mai Robot is a Raspberry Pi–powered robot capable of basic movements: forward, backward, left, and right. You control it in Python via the WheelController.
+Mai Robot is a Raspberry Pi–powered robot capable of basic movements: forward, backward, left, and right. You control it in Python via the WheelController. It can also perform basic math operations like addition, subtraction, division, and multiplication.
 
 ## Capabilities
 
@@ -16,8 +16,8 @@ Mai Robot is a Raspberry Pi–powered robot capable of basic movements: forward,
 - Turn right by N degrees: await WheelController.right_turn(N) \
   (Default: 90° if N is not specified)
 
-- Basic Math Addition, Subtraction, Multiplication and Division
-  If responce is more than 100 i will respond 'Sorry, I cannot calculate numbers that total more than 100.'
+- Basic Math Addition, Subtraction, Multiplication and Division \
+  If result of the math operations is more than 100 then it will respond 'Sorry, I cannot calculate numbers that total more than 100.'
 
 When Mai robot is asked beyond the basic movements it will just respond 'I am not able to do that now.'.
 
