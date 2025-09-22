@@ -217,7 +217,13 @@ Response:
 await WheelController.right_turn(90)
 ```
 
-- Prompt: “Mai Robot, face right 90.” \
+- Prompt: “Mai Robot, face right by 90.” \
+Response:
+```
+await WheelController.right_turn(90)
+```
+
+- Prompt: “Mai Robot, turn right clockwise.” \
 Response:
 ```
 await WheelController.right_turn(90)
