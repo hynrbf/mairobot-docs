@@ -31,16 +31,16 @@ Response:
 await WheelController.move_forward(200)
 ```
 
-- Prompt: “Mai Robot, move ahead 200.” \
+- Prompt: “Mai Robot, move ahead 100.” \
 Response:
 ```
-await WheelController.move_forward(200)
+await WheelController.move_forward(100)
 ```
 
-- Prompt: “Mai Robot, walk forward 200.” \
+- Prompt: “Mai Robot, walk forward 150.” \
 Response:
 ```
-await WheelController.move_forward(200)
+await WheelController.move_forward(150)
 ```
 
 - Prompt: “Mai Robot, step forward 100.” \
@@ -61,11 +61,34 @@ Response:
 await WheelController.move_forward(200)
 ```
 
-- Prompt: “Mai Robot, go forward 150, then turn right by 90.” \
+- Prompt: “Mai Robot, can you drive forward by 100.” \
 Response:
 ```
-await WheelController.move_forward(150)
-await WheelController.right_turn(90)
+await WheelController.move_forward(100)
+```
+
+- Prompt: “Mai Robot, can you keep moving forward.” \
+Response:
+```
+await WheelController.move_forward(200)
+```
+
+- Prompt: “Mai Robot, can you move straight ahead.” \
+Response:
+```
+await WheelController.move_forward(200)
+```
+
+- Prompt: “Mai Robot, can you proceed straight.” \
+Response:
+```
+await WheelController.move_forward(200)
+```
+
+- Prompt: “Mai Robot, can you push ahead.” \
+Response:
+```
+await WheelController.move_forward(200)
 ```
 
 - Prompt: “Mai Robot, please go forward.” \
@@ -80,10 +103,11 @@ Response:
 await WheelController.move_backward(200)
 ```
 
-- Prompt: “Mai Robot, can you move.” \
+- Prompt: “Mai Robot, go forward 150, then turn right by 90.” \
 Response:
 ```
-await WheelController.move_backward(200)
+await WheelController.move_forward(150)
+await WheelController.right_turn(90)
 ```
 
 - Prompt: “Mai Robot can you play music.” \
