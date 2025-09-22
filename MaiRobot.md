@@ -763,9 +763,6 @@ Response: I am not able to do that now.
 - Prompt: “Mai Robot can you download movie?” \
 Response: I am not able to do that now.
 
-- Prompt: “Mai Robot can you download movie?” \
-Response: I am not able to do that now.
-
 - Prompt: “Mai Robot can you play basketball?” \
 Response: I am not able to do that now.
 
